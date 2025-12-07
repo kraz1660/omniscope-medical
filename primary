@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SAS Methylation Tests — At-Home Health Screening</title>
+  <meta name="description" content="At-home methylation testing: comprehensive panels, MTHFR, longevity testing. Fast, CLIA-certified lab processing, secure results." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#">SAS Methylation</a>
+      <nav class="nav">
+        <a href="#tests">Tests</a>
+        <a href="#how">How it Works</a>
+        <a href="#faq">FAQ</a>
+        <a class="cta" href="#contact">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <h1>Actionable methylation & longevity blood tests — from home</h1>
+          <p>Comprehensive methylation panels, MTHFR gene testing, and aging biomarkers processed in CLIA-certified labs. Easy kit shipping, fast results, optional telehealth follow-up.</p>
+          <p><a class="btn" href="#tests">See tests & pricing</a> <a class="btn ghost" href="#contact">Order a kit</a></p>
+        </div>
+        <div class="hero-card">
+          <strong>Start with a single kit — $129</strong>
+          <ul>
+            <li>Home blood collection kit</li>
+            <li>Secure online results in 7–14 days</li>
+            <li>Optional telehealth consultation</li>
+          </ul>
+          <a class="btn" href="#contact">Order now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tests" class="wrap section">
+      <h2>Our tests</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Comprehensive Methylation Panel</h3>
+          <p>Genome-wide methylation markers for early disease signals and health optimization.</p>
+          <p class="price">$149</p>
+        </article>
+        <article class="card">
+          <h3>MTHFR Gene Test</h3>
+          <p>Detect common MTHFR variants to guide supplementation and methylation support.</p>
+          <p class="price">$99</p>
+        </article>
+        <article class="card">
+          <h3>Longevity & Aging Test</h3>
+          <p>Epigenetic clock-based estimate of biological age and lifestyle recommendations.</p>
+          <p class="price">$129</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="wrap section">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Order</strong> — purchase online, kit ships same/next day</li>
+        <li><strong>Collect</strong> — easy fingerprick or small blood sample</li>
+        <li><strong>Return</strong> — prepaid shipping to CLIA-certified lab</li>
+        <li><strong>Results</strong> — secure portal + optional telehealth review</li>
+      </ol>
+    </section>
+
+    <section id="faq" class="wrap section">
+      <h2>FAQ</h2>
+      <details><summary>Are these tests diagnostic?</summary><p>These are screening/epigenetic tests. They are not a diagnosis — follow up with your physician for any clinical concerns.</p></details>
+      <details><summary>Do I need a prescription?</summary><p>No prescription required for our direct-to-consumer tests.</p></details>
+    </section>
+
+    <section id="contact" class="wrap section contact">
+      <h2>Order or ask a question</h2>
+      <form action="https://formspree.io/f/your-id" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="_replyto" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <input type="hidden" name="_subject" value="New website inquiry">
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© SAS Methylation • CLIA-certified partner lab • Secure results</p>
+    </div>
+  </footer>
+</body>
+</html>
